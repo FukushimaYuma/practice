@@ -2,7 +2,7 @@
 <h1>入力フォーム</h1>
 <p>本を管理します。</p>
 <div class="th0">商品番号</div>
-<div class="th1">商品名</div>
+<div class="th1">商品名</div>  
 <div class="th1">価格</div><br>
 <?php 
 $pdo=new PDO('mysql:host=localhost;dbname=book library;charset=utf8','staff','password');
